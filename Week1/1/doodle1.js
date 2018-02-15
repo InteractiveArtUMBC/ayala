@@ -4,7 +4,8 @@ function setup(){
     stroke('rgb(200,20,0)');
     noFill();
     strokeWeight(5);
-
+// one thing I would work on in the future is if you are going to make such a large image in the setup that will be in the background
+//I think it would be better to create a .PNG file and load it into p5. This will make the file smaller and more managable.    
     ellipse(50,50,50,25);
     ellipse(100,50,50,25);
     ellipse(150,50,50,25);
